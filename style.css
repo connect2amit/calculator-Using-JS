@@ -24,3 +24,17 @@
     
 }
 
+.container{
+    border: 3px solid black;
+    width:460px;
+    margin-top: 10px;
+}
+
+.middle-div{
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+.main-div{
+    margin-left: 8px;
+    margin-top: 8px;
+}
