@@ -1,8 +1,7 @@
 
 function clearDisplay() {
-    var clearDisplay = document.getElementById('display');
-    display.value = '0';
-    
+    document.getElementById('display').value="";
+ 
 }
 
 function input(selectedElement) {
