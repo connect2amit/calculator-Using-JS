@@ -25,6 +25,7 @@
     border-radius: 20px;
     border: 3px solid black;
     box-shadow: 10px 10px 5px #424447;
+    font-size:large;
     
 }
 
@@ -34,6 +35,9 @@
     width:460px;
     margin-top: 10px;
     background-color: #41dcf4;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    
 }
 
 .middle-div{
@@ -51,7 +55,7 @@
 }
 body{
     margin-left: 30%;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .Button{
   
@@ -69,11 +73,20 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-h3{
+h2{
     border: 2px solid #a1a1a1;
     padding: 10px 40px; 
     background: #dddddd;
     width: 380px;
     border-radius: 25px;
      text-align: center;
+    margin-left:8px;
+}
+.main{
+    border-radius: 25px;
+     border: 3px solid black;
+    width:480px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    background-color:chocolate;
 }
