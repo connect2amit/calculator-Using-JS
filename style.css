@@ -1,0 +1,92 @@
+.Button,.output,.calculation {
+   
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.calcDisplay{
+    
+    width:320px;
+    height:50px;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-right: 10px;
+    box-shadow: 10px 10px 5px #424447;
+}
+
+#Button17{
+    
+    width:100px;
+    height: 60px;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px #424447;
+    font-size:large;
+    
+}
+
+.container{
+    border-radius: 25px;
+    border: 3px solid black;
+    width:460px;
+    margin-top: 10px;
+    background-color: #41dcf4;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    
+}
+
+.middle-div{
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+.main-div{
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.Button{
+    border-radius: 20px;
+    font-size:large;
+    box-shadow: 10px 10px 5px #424447;
+}
+body{
+    margin-left: 30%;
+    margin-top: 25px;
+}
+.Button{
+  
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  
+}
+
+.Button:hover {background-color: palevioletred}
+
+.Button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h2{
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    background: #dddddd;
+    width: 380px;
+    border-radius: 25px;
+     text-align: center;
+    margin-left:8px;
+}
+.main{
+    border-radius: 25px;
+     border: 3px solid black;
+    width:480px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    background-color:chocolate;
+}
