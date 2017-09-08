@@ -1,0 +1,26 @@
+.Button,.output,.calculation {
+   
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.calcDisplay{
+    
+    width:320px;
+    height:50px;
+    border: 3px solid black;
+    margin-right: 10px;
+}
+
+#Button17{
+    
+    width:100px;
+    height: 60px;
+    border: 3px solid black;
+    
+}
+

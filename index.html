@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+ <body class="main">
+        <div class="main-div">
+            
+             <input type="text" class="calcDisplay" id="display" />
+            <input type="button" id="Button17"  value="C" onclick="clearDisplay()" />
+        </div>
+        <div class="middle-div">
+            <div class="Table">
+                <div class="row">
+                    
+                      <input type="button" class="Button" value="7" onclick="input('7')" />
+                      <input type="button" class="Button" value="8" onclick="input('8')" />
+                      <input type="button" class="Button" value="9" onclick="input('9')" />
+                      <input type="button" class="Button" value="+" onclick="operation('+')" />
+                </div>
+                <div class="row">
+                        <input type="button" class="Button" value="4" onclick="input('4')" />
+                        <input type="button" class="Button" value="5" onclick="input('5')" />
+                        <input type="button" class="Button" value="6" onclick="input('6')" />
+                        <input type="button" class="Button" value="-" onclick="operation('-')" />
+                </div>
+                <div class="row">
+                        <input type="button" class="Button" value="1" onclick="input('1')" />
+                        <input type="button" class="Button" value="2" onclick="input('2')" />
+                        <input type="button" class="Button" value="3" onclick="input('3')" />
+                        <input type="button" class="Button" value="*" onclick="operation('*')" />
+                </div>
+                <div class="row">
+                    
+                    <input type="button" class="Button" value="0" onclick="input('0')" />
+                    <input type="button" class="Button" value="." onclick="insertDecimal('.')" />
+                    <input type="button" class="Button" value="=" onclick="calculate()" />
+                    <input type="button" class="Button" value="/" onclick="operation('/')" />
+                </div>
+                
+               
+            </div>
+            
+           
+        </div>
+     
+</body>
+
+
+</html>
